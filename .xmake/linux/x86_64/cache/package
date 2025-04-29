@@ -1,0 +1,51 @@
+{
+    libavformat = {
+        __requirestr = "libavformat",
+        sysincludedirs = "/usr/include/x86_64-linux-gnu",
+        __requireconfs = {
+            system = true
+        },
+        links = "avformat",
+        __enabled = true,
+        version = "58.76.100"
+    },
+    libavutil = {
+        __requirestr = "libavutil",
+        sysincludedirs = "/usr/include/x86_64-linux-gnu",
+        __requireconfs = {
+            system = true
+        },
+        links = "avutil",
+        __enabled = true,
+        version = "56.70.100"
+    },
+    sdl2 = {
+        __requirestr = "sdl2",
+        sysincludedirs = "/usr/include/SDL2",
+        __requireconfs = {
+            system = true
+        },
+        links = "SDL2",
+        defines = "_REENTRANT",
+        __enabled = true,
+        version = "2.0.20"
+    },
+    pthread = {
+        __requirestr = "pthread",
+        links = "pthread",
+        __enabled = true,
+        __requireconfs = {
+            system = true
+        }
+    },
+    libavcodec = {
+        __requirestr = "libavcodec",
+        sysincludedirs = "/usr/include/x86_64-linux-gnu",
+        __requireconfs = {
+            system = true
+        },
+        links = "avcodec",
+        __enabled = true,
+        version = "58.134.100"
+    }
+}

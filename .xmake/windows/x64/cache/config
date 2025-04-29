@@ -1,0 +1,10 @@
+{
+    options = {
+        qt = "D:/Applications/msys64/ucrt64"
+    },
+    mtimes = {
+        ["test\\xmake.lua"] = 1711192255,
+        ["xmake.lua"] = 1726742774
+    },
+    recheck = false
+}

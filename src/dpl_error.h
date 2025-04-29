@@ -1,0 +1,28 @@
+#ifndef _DPL_ERROR_H_
+#define _DPL_ERROR_H_
+
+namespace dpl {
+enum DPL_ERROR_NUM
+{
+    ERROR_SUCCESS = 0,
+    ERROR_FAIL    = -1,
+
+
+    ERROR_LOGIC_ERROR      = -1000,
+    ERROR_INVALID_ARGUMENT = -1001,
+    ERROR_LIBAV_ERROR      = -1002,
+    ERROR_HARDWARE_ERROR   = -1003,
+
+    ERROR_RUNTIME_ERROR    = -2000,
+    ERROR_SYSTEM_ERROR     = -2001,
+
+    ERROR_AUDIO_UNSUPPORTED_FORMAT  = -3000,
+    ERROR_AUDIO_OPEN_DEVICE_FAILED  = -3001,
+    ERROR_AUDIO_NOT_OPEN            = -3002,
+    ERROR_AUDIO_PLAY_FAILED         = -3003,
+};
+
+}
+
+
+#endif // DPL_ERROR_H
